@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Basketball counter</title>
+    </head>
+
+    <body>
+        <div id="home">
+            <h1>HOME</h1>
+            <div class="counter">
+                <h1 id="home-counter">0</h1>
+            </div>
+            <button class="plus-one-btn" onclick="homePlusOne()">+1</button>
+            <button class="plus-two-btn" onclick="homePlusTwo()">+2</button>
+            <button class="plus-tree-btn" onclick="homePlusTree()">+3</button>
+        </div>
+
+        <div id="visit">
+            <h1>VISIT</h1>
+            <div class="counter">
+                <h1 id="visit-counter">0</h1>
+            </div>
+            <button class="plus-one-btn" onclick="visitPlusOne()">+1</button>
+            <button class="plus-two-btn" onclick="visitPlusTwo()">+2</button>
+            <button class="plus-tree-btn" onclick="visitPlusTree()">+3</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

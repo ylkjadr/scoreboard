@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    background: #272635;
+    color: #E1DEE9;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#home{
+    text-align: center;
+}
+
+#home-counter{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+    padding: 30px 60px;
+    background: #090809;
+    color: #d90429;
+    border: none;
+    border-radius: 5px;
+}
+
+#visit{
+    text-align: center;
+}
+
+#visit-counter{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+    padding: 30px 60px;
+    background: #090809;
+    color: #d90429;
+    border: none;
+    border-radius: 5px;
+}
+
+.plus-one-btn{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 6px 12px;
+    border: 2px solid #B1E5F2;
+    border-radius: 5px;
+    background: none;
+    color: #B1E5F2;
+    font-size: 20px;
+
+}
+
+.plus-two-btn{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 6px 12px;
+    border: 2px solid #B1E5F2;
+    border-radius: 5px;
+    background: none;
+    color: #B1E5F2;
+    font-size: 20px;
+}
+
+.plus-tree-btn{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 6px 12px;
+    border: 2px solid #B1E5F2;
+    border-radius: 5px;
+    background: none;
+    color: #B1E5F2;
+    font-size: 20px;
+}
