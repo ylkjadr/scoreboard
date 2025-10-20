@@ -22,17 +22,14 @@ function homePlusTree(){
 function visitPlusOne(){
     anotherVisitCounter += 1
     visitCounter.textContent = anotherVisitCounter
-    console.log(anotherVisitCounter)
 }
 
 function visitPlusTwo(){
     anotherVisitCounter += 2
     visitCounter.textContent = anotherVisitCounter
-    console.log(anotherVisitCounter)
 }
 
 function visitPlusTree(){
     anotherVisitCounter += 3
     visitCounter.textContent = anotherVisitCounter
-    console.log(anotherVisitCounter)
 }
